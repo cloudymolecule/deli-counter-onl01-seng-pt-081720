@@ -12,8 +12,8 @@ def line(place)
   end
 end
 
-def take_a_number(person, place)
-  if place.length == 0
-    place << person
+def take_a_number(person, line)
+  if line(place).length == 0
+    line << person
   end
 end
