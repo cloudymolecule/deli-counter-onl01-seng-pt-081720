@@ -17,6 +17,8 @@ def take_a_number(katz_deli, person)
     katz_deli << person
     puts "Welcome, #{person}. You are number 1 in line."
   elsif katz_deli.length > 0
+    counter = katz_deli.length + 1
     katz_deli << person
+    puts "Welcome, #{person}. You are number #{counter} in line."
   end
 end
