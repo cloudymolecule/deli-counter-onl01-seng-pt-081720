@@ -6,7 +6,7 @@ def line(place)
     position = 1
     place.each do |name|
       position +=
-      result << "#{position} #{name} "
+      result + "#{position} #{name} "
     end
     list.join(" ")
     puts result
