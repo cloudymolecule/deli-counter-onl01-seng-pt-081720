@@ -3,7 +3,7 @@ def line(place)
     puts "The line is currently empty."
   else
     result = "The line is currently: "
-    position = 1
+    position = 0
     place.each do |name|
       position = position + 1
       result << "#{position}. #{name} "
