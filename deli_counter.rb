@@ -11,3 +11,7 @@ def line(place)
     puts result
   end
 end
+
+def take_a_number(place)
+
+end
