@@ -2,13 +2,13 @@ def line(place)
   if place.length == 0
     puts "The line is currently empty."
   else
-    list
+    result = "The line is currently: "
     position = 1
     place.each do |name|
       position +=
-      list << "#{position} #{name} "
+      result << "#{position} #{name} "
     end
     list.join(" ")
-    puts "The line is currently: #{list}"
+    puts result
   end
 end
