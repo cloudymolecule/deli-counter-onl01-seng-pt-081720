@@ -8,7 +8,6 @@ def line(place)
       position +=
       result + "#{position} #{name} "
     end
-    list.join(" ")
     puts result
   end
 end
