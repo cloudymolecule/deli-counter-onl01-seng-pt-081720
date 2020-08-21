@@ -5,7 +5,7 @@ def line(place)
     result = "The line is currently: "
     position = 1
     place.each do |name|
-      position +=
+      position = position + 1
       result + "#{position} #{name} "
     end
     puts result
