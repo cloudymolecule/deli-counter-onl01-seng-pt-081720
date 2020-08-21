@@ -22,3 +22,7 @@ def take_a_number(katz_deli, person)
     puts "Welcome, #{person}. You are number #{counter} in line."
   end
 end
+
+def now_serving(katz_deli)
+
+end
